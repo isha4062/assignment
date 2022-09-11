@@ -7,12 +7,12 @@ import 'rsuite/dist/rsuite.min.css';
 
 function App() {
   return (
+    <Routes>
     <div className='main'>
-      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
-      </Routes>
     </div>
+    </Routes>
   );
 }
 
